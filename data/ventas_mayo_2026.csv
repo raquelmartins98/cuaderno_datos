@@ -1,0 +1,506 @@
+fecha,cliente_id,categoria,region,canal,unidades,precio_unitario,descuento,antiguedad_cliente_meses,importe
+2025-01-01,C1000,Hogar,Madrid,Online,8,99.92,0.07,63,836.25
+2025-01-02,C1001,Servicios,Madrid,Distribuidor,5,192.95,0.1,52,956.72
+2025-01-03,C1002,Moda,Madrid,Online,7,39.77,0.05,26,357.65
+2025-01-04,C1003,Alimentación,Valencia,Online,9,25.17,0.06,53,301.52
+2025-01-05,C1004,Tecnología,Castilla-La Mancha,Distribuidor,8,,0.09,29,2101.55
+2025-01-06,C1005,Tecnología,Valencia,Online,7,263.16,0.07,19,1808.01
+2025-01-07,C1006,Tecnología,Castilla-La Mancha,Tienda,14,289.21,0.05,47,3784.55
+2025-01-08,C1007,Servicios,Valencia,Online,9,166.96,0.1,8,1511.58
+2025-01-09,C1008,Alimentación,Valencia,Distribuidor,14,16.61,0.07,23,246.12
+2025-01-10,C1009,Moda,Andalucía,Online,7,89.3,0.08,35,541.9
+2025-01-11,C1010,Tecnología,Valencia,Distribuidor,12,282.31,0.07,53,3146.24
+2025-01-12,C1011,Servicios,Cataluña,Tienda,13,187.79,0.06,58,2444.86
+2025-01-13,C1012,Moda,Andalucía,Online,9,85.27,0.05,5,704.82
+2025-01-14,C1013,Tecnología,Valencia,Tienda,11,240.71,0.07,16,2316.61
+2025-01-15,C1014,Tecnología,Madrid,Distribuidor,9,289.52,0.08,17,2367.52
+2025-01-16,C1015,Tecnología,Cataluña,Tienda,2,268.58,0.12,32,455.61
+2025-01-17,C1016,Hogar,Cataluña,Online,12,110.56,0.01,52,1594.89
+2025-01-18,C1017,Alimentación,Cataluña,Tienda,11,41.56,0.13,20,463.4
+2025-01-19,C1018,Alimentación,Andalucía,Tienda,7,29.55,0.06,66,547.79
+2025-01-20,C1019,Hogar,Valencia,Tienda,7,128.92,0.02,1,801.68
+2025-01-21,C1020,Alimentación,Valencia,Tienda,7,34.39,0.01,58,348.37
+2025-01-22,C1021,Tecnología,Madrid,Online,13,282.52,0.02,44,3755.73
+2025-01-23,C1022,Hogar,Madrid,Online,8,112.65,0.1,6,898.55
+2025-01-24,C1023,Hogar,Cataluña,Tienda,11,104.03,0.0,50,1355.8
+2025-01-25,C1024,Alimentación,Madrid,Online,4,23.9,0.04,20,35.22
+2025-01-26,C1025,Moda,Andalucía,Online,7,,0.07,14,377.5
+2025-01-27,C1026,Tecnología,Valencia,Distribuidor,11,307.56,0.07,5,3116.17
+2025-01-28,C1027,Alimentación,Cataluña,Tienda,5,57.08,0.0,41,565.6
+2025-01-29,C1028,Alimentación,Madrid,Tienda,11,25.2,0.06,40,240.49
+2025-01-30,C1029,Tecnología,Andalucía,Distribuidor,10,280.9,0.04,34,2718.45
+2025-01-31,C1030,Alimentación,Andalucía,Tienda,5,30.68,0.07,45,342.76
+2025-02-01,C1031,Tecnología,Madrid,Distribuidor,15,281.95,0.13,71,3938.16
+2025-02-02,C1032,Tecnología,Valencia,Tienda,7,283.88,0.05,71,2131.98
+2025-02-03,C1033,Servicios,Madrid,Online,5,187.91,0.13,27,894.62
+2025-02-04,C1034,Servicios,Cataluña,Online,6,136.48,0.19,44,645.49
+2025-02-05,C1035,Moda,Madrid,Tienda,8,75.5,0.02,33,591.51
+2025-02-06,C1036,Hogar,,Tienda,9,114.02,0.08,33,1161.73
+2025-02-07,C1037,Tecnología,Madrid,Online,11,269.43,0.02,44,3107.25
+2025-02-08,C1038,Moda,Valencia,Online,9,81.91,0.2,20,479.58
+2025-02-09,C1039,Alimentación,Castilla-La Mancha,Online,7,57.0,0.07,36,565.42
+2025-02-10,C1040,Tecnología,Madrid,Online,7,290.34,0.03,7,2145.93
+2025-02-11,C1041,Alimentación,Valencia,Tienda,10,27.22,0.13,32,323.29
+2025-02-12,C1042,Tecnología,Valencia,Online,11,263.86,0.05,67,2975.99
+2025-02-13,C1043,Servicios,Andalucía,Tienda,9,134.91,0.1,39,1311.62
+2025-02-14,C1044,Hogar,Valencia,Tienda,6,122.74,0.14,24,609.84
+2025-02-15,C1045,Moda,Valencia,Tienda,12,78.69,0.02,70,1379.89
+2025-02-16,C1046,Hogar,Valencia,Distribuidor,9,118.47,0.02,54,1326.69
+2025-02-17,C1047,Alimentación,Valencia,Online,8,49.01,0.02,38,542.09
+2025-02-18,C1048,Alimentación,Cataluña,Tienda,8,15.2,0.12,32,182.85
+2025-02-19,C1049,Tecnología,Cataluña,Online,7,277.43,0.04,45,2036.21
+2025-02-20,C1050,Servicios,Andalucía,Online,8,176.25,0.02,61,1347.03
+2025-02-21,C1051,Moda,Madrid,Distribuidor,10,68.35,0.1,70,1039.99
+2025-02-22,C1052,Servicios,Valencia,Online,8,197.52,0.1,53,1690.1
+2025-02-23,C1053,Servicios,Madrid,Online,10,178.43,0.08,51,1944.71
+2025-02-24,C1054,Alimentación,Madrid,Tienda,10,30.58,0.11,56,415.84
+2025-02-25,C1055,Servicios,Andalucía,Online,15,165.95,0.06,27,2364.15
+2025-02-26,C1056,Tecnología,Valencia,Distribuidor,12,299.93,0.03,38,3505.25
+2025-02-27,C1057,Tecnología,Valencia,Online,3,258.53,0.09,62,958.42
+2025-02-28,C1058,Tecnología,Castilla-La Mancha,Distribuidor,4,271.71,0.07,18,994.24
+2025-03-01,C1059,Hogar,Madrid,Tienda,9,145.41,0.04,64,1393.85
+2025-03-02,C1060,Hogar,Madrid,Tienda,7,127.02,0.05,30,985.28
+2025-03-03,C1061,Hogar,Cataluña,Distribuidor,11,119.7,0.08,49,1254.72
+2025-03-04,C1062,Moda,Castilla-La Mancha,Online,9,70.33,0.06,41,822.73
+2025-03-05,C1063,Hogar,Cataluña,Distribuidor,16,105.8,0.01,13,1706.31
+2025-03-06,C1064,Hogar,Cataluña,Online,10,118.97,0.11,34,962.88
+2025-03-07,C1065,Alimentación,Cataluña,Tienda,5,29.75,0.15,25,108.55
+2025-03-08,C1066,Tecnología,Andalucía,Online,6,282.69,0.13,66,1797.65
+2025-03-09,C1067,Moda,Andalucía,Tienda,4,47.41,0.05,18,112.7
+2025-03-10,C1068,Tecnología,Cataluña,Online,10,285.97,0.02,5,2922.27
+2025-03-11,C1069,Servicios,Castilla-La Mancha,Distribuidor,9,195.25,0.05,19,1731.48
+2025-03-12,C1070,Moda,Madrid,Distribuidor,11,66.94,0.01,42,813.4
+2025-03-13,C1071,Tecnología,Castilla-La Mancha,Distribuidor,7,289.71,0.05,18,2273.06
+2025-03-14,C1072,Tecnología,Valencia,Online,10,284.66,0.08,32,2544.72
+2025-03-15,C1073,Moda,Andalucía,Tienda,8,60.88,0.08,21,411.79
+2025-03-16,C1074,Moda,Madrid,Tienda,12,54.12,0.07,10,626.19
+2025-03-17,C1075,Moda,Madrid,Online,7,56.22,0.03,37,764.15
+2025-03-18,C1076,Moda,Valencia,Online,9,74.39,0.11,49,715.86
+2025-03-19,C1077,Tecnología,Valencia,Online,8,279.16,0.05,13,2187.01
+2025-03-20,C1078,Hogar,Cataluña,Tienda,7,,0.02,55,1051.61
+2025-03-21,C1079,Tecnología,Andalucía,Tienda,10,291.86,0.08,17,2770.68
+2025-03-22,C1080,Servicios,Andalucía,Tienda,11,191.83,0.03,9,2036.49
+2025-03-23,C1081,Alimentación,Castilla-La Mancha,Online,11,38.95,0.04,44,604.71
+2025-03-24,C1082,Hogar,Cataluña,Online,5,105.57,0.03,46,719.9
+2025-03-25,C1083,Tecnología,Cataluña,Online,12,284.88,0.03,8,3307.91
+2025-03-26,C1084,Hogar,Cataluña,Distribuidor,8,,0.05,37,876.72
+2025-03-27,C1085,Hogar,Cataluña,Online,11,102.92,0.04,19,1145.61
+2025-03-28,C1086,Moda,Andalucía,Online,4,88.15,0.02,63,671.3
+2025-03-29,C1087,Alimentación,Andalucía,Online,7,51.53,0.02,46,369.33
+2025-03-30,C1088,Servicios,Cataluña,Distribuidor,9,162.84,0.08,71,1565.87
+2025-03-31,C1089,Alimentación,Castilla-La Mancha,Distribuidor,6,25.43,0.04,26,66.81
+2025-04-01,C1090,Tecnología,Madrid,Tienda,6,271.75,0.12,46,1425.07
+2025-04-02,C1091,Moda,Madrid,Tienda,6,79.15,0.05,46,722.19
+2025-04-03,C1092,Moda,Castilla-La Mancha,Tienda,15,77.42,0.06,14,1209.62
+2025-04-04,C1093,Alimentación,Cataluña,Online,4,35.67,0.03,63,337.76
+2025-04-05,C1094,Moda,Andalucía,Distribuidor,8,74.11,0.01,3,315.82
+2025-04-06,C1095,Alimentación,Madrid,Tienda,14,15.69,0.03,28,216.66
+2025-04-07,C1096,Alimentación,Valencia,Tienda,7,40.72,0.08,29,407.56
+2025-04-08,C1097,Alimentación,Valencia,Tienda,5,33.49,0.01,18,36.87
+2025-04-09,C1098,Tecnología,Castilla-La Mancha,Tienda,8,269.81,0.06,35,2074.04
+2025-04-10,C1099,Tecnología,Cataluña,Tienda,10,257.01,0.07,47,2599.71
+2025-04-11,C1100,Tecnología,Madrid,Distribuidor,5,280.4,0.14,5,1036.9
+2025-04-12,C1101,Alimentación,Cataluña,Distribuidor,8,40.35,0.06,59,249.45
+2025-04-13,C1102,Hogar,Madrid,Tienda,10,94.46,0.03,59,884.53
+2025-04-14,C1103,Alimentación,Castilla-La Mancha,Tienda,6,35.28,0.11,47,346.02
+2025-04-15,C1104,Servicios,Castilla-La Mancha,Online,9,181.83,0.05,13,1520.34
+2025-04-16,C1105,Hogar,Valencia,Tienda,13,111.69,0.04,33,1581.71
+2025-04-17,C1106,Hogar,Cataluña,Online,5,125.7,0.04,62,772.87
+2025-04-18,C1107,Moda,Valencia,Tienda,11,68.01,0.12,16,924.0
+2025-04-19,C1108,Hogar,Cataluña,Distribuidor,10,124.25,0.07,44,1117.0
+2025-04-20,C1109,Tecnología,Valencia,Tienda,12,288.01,0.04,58,3502.73
+2025-04-21,C1110,Hogar,Andalucía,Tienda,10,128.02,0.1,6,1071.77
+2025-04-22,C1111,Tecnología,Andalucía,Online,11,295.25,0.03,15,3259.87
+2025-04-23,C1112,Servicios,Andalucía,Online,6,185.07,0.15,4,968.27
+2025-04-24,C1113,Moda,Andalucía,Tienda,8,62.84,0.06,56,493.42
+2025-04-25,C1114,Alimentación,Madrid,Online,10,25.28,0.13,64,361.11
+2025-04-26,C1115,Servicios,Andalucía,Online,7,164.05,0.02,68,1304.16
+2025-04-27,C1116,Moda,Castilla-La Mancha,Online,8,72.27,0.09,34,539.19
+2025-04-28,C1117,Tecnología,Castilla-La Mancha,Tienda,10,299.82,0.11,56,2895.66
+2025-04-29,C1118,Servicios,Madrid,Tienda,8,174.62,0.12,32,1185.62
+2025-04-30,C1119,Alimentación,Andalucía,Online,11,41.74,0.02,9,723.42
+2025-05-01,C1120,Moda,Andalucía,Tienda,11,58.72,0.14,63,827.39
+2025-05-02,C1121,Servicios,Andalucía,Tienda,11,182.92,0.13,33,1874.91
+2025-05-03,C1122,Hogar,Valencia,Tienda,6,138.89,0.09,21,1152.28
+2025-05-04,C1123,Tecnología,Cataluña,Tienda,11,290.29,0.12,55,2910.43
+2025-05-05,C1124,Hogar,Valencia,Online,13,96.44,0.09,57,1356.72
+2025-05-06,C1125,Alimentación,Cataluña,Tienda,4,43.56,0.0,2,205.96
+2025-05-07,C1126,Moda,Andalucía,Tienda,7,79.24,0.08,13,638.52
+2025-05-08,C1127,Servicios,Andalucía,Distribuidor,13,182.6,0.05,4,2444.67
+2025-05-09,C1128,Tecnología,,Tienda,3,290.01,0.05,50,1017.41
+2025-05-10,C1129,Alimentación,Valencia,Online,5,22.5,0.11,48,345.13
+2025-05-11,C1130,Hogar,Cataluña,Online,11,120.95,0.05,30,1272.87
+2025-05-12,C1131,Hogar,Castilla-La Mancha,Tienda,6,136.65,0.07,29,810.28
+2025-05-13,C1132,Tecnología,Cataluña,Distribuidor,8,295.3,0.05,8,2460.87
+2025-05-14,C1133,Hogar,Valencia,Tienda,9,128.22,0.06,12,1186.37
+2025-05-15,C1134,Servicios,,Tienda,7,166.76,0.06,41,1229.55
+2025-05-16,C1135,Hogar,Madrid,Tienda,12,104.39,0.02,26,1202.27
+2025-05-17,C1136,Alimentación,Valencia,Tienda,11,36.72,0.06,50,620.66
+2025-05-18,C1137,Moda,Madrid,Online,10,72.71,0.08,2,580.17
+2025-05-19,C1138,Hogar,Castilla-La Mancha,Distribuidor,12,118.49,0.09,55,1302.32
+2025-05-20,C1139,Servicios,Cataluña,Online,9,167.93,0.04,56,1604.69
+2025-05-21,C1140,Servicios,Cataluña,Tienda,8,186.55,0.08,14,1119.74
+2025-05-22,C1141,Hogar,Madrid,Distribuidor,9,121.65,0.03,6,1150.36
+2025-05-23,C1142,Alimentación,Cataluña,Online,5,39.35,0.02,61,390.54
+2025-05-24,C1143,Hogar,Valencia,Online,11,128.9,0.07,12,1306.33
+2025-05-25,C1144,Hogar,Andalucía,Online,9,115.9,0.07,13,971.09
+2025-05-26,C1145,Tecnología,Madrid,Distribuidor,8,272.67,0.08,19,2040.02
+2025-05-27,C1146,Alimentación,Cataluña,Online,12,51.61,0.03,44,616.09
+2025-05-28,C1147,Alimentación,Madrid,Online,9,23.64,0.05,59,371.77
+2025-05-29,C1148,Tecnología,Madrid,Online,8,272.96,0.01,37,2224.43
+2025-05-30,C1149,Hogar,Andalucía,Online,13,138.51,0.05,25,1786.64
+2025-05-31,C1150,Servicios,Valencia,Online,12,171.79,0.19,16,1691.16
+2025-06-01,C1151,Hogar,Madrid,Tienda,14,118.52,0.03,38,1662.21
+2025-06-02,C1152,Tecnología,Cataluña,Tienda,12,273.82,0.13,43,2999.6
+2025-06-03,C1153,Alimentación,Castilla-La Mancha,Online,11,8.25,0.06,14,214.05
+2025-06-04,C1154,Servicios,Madrid,Online,11,178.15,0.06,6,1794.1
+2025-06-05,C1155,Hogar,Madrid,Online,11,104.84,0.02,23,1235.14
+2025-06-06,C1156,Moda,Andalucía,Online,3,73.82,0.08,60,416.07
+2025-06-07,C1157,Moda,Valencia,Tienda,16,86.58,0.04,12,1205.88
+2025-06-08,C1158,Hogar,Castilla-La Mancha,Tienda,11,86.79,0.07,13,1037.52
+2025-06-09,C1159,Moda,Cataluña,Online,6,63.9,0.05,6,625.98
+2025-06-10,C1160,Hogar,Castilla-La Mancha,Tienda,10,126.78,0.03,63,1376.74
+2025-06-11,C1161,Alimentación,Cataluña,Online,10,2.25,0.07,38,95.38
+2025-06-12,C1162,Alimentación,Valencia,Distribuidor,9,55.04,0.08,50,555.2
+2025-06-13,C1163,Alimentación,Cataluña,Tienda,9,40.7,0.05,52,552.44
+2025-06-14,C1164,Tecnología,,Tienda,12,296.25,0.03,40,3609.62
+2025-06-15,C1165,Moda,Andalucía,Online,8,61.54,0.04,8,301.75
+2025-06-16,C1166,Hogar,Andalucía,Distribuidor,10,113.35,0.1,61,1068.72
+2025-06-17,C1167,Tecnología,Andalucía,Online,8,277.59,0.07,8,2146.12
+2025-06-18,C1168,Tecnología,Castilla-La Mancha,Online,4,312.07,0.08,34,1216.03
+2025-06-19,C1169,Alimentación,Valencia,Online,11,54.77,0.08,60,564.35
+2025-06-20,C1170,Moda,Cataluña,Online,8,71.99,0.01,57,892.65
+2025-06-21,C1171,Tecnología,Cataluña,Distribuidor,7,283.82,0.03,46,1946.15
+2025-06-22,C1172,Alimentación,Andalucía,Tienda,12,44.52,0.14,22,518.78
+2025-06-23,C1173,Hogar,Andalucía,Online,5,155.87,0.01,40,850.99
+2025-06-24,C1174,Alimentación,Madrid,Tienda,5,40.74,0.04,45,178.61
+2025-06-25,C1175,Tecnología,Valencia,Distribuidor,6,280.69,0.12,55,1641.73
+2025-06-26,C1176,Moda,Castilla-La Mancha,Distribuidor,9,64.92,0.05,51,729.63
+2025-06-27,C1177,Hogar,Cataluña,Tienda,11,123.52,0.04,5,1260.79
+2025-06-28,C1178,Servicios,Madrid,Distribuidor,13,171.19,0.06,13,2084.16
+2025-06-29,C1179,Tecnología,Madrid,Distribuidor,10,287.44,0.06,28,2844.01
+2025-06-30,C1180,Hogar,,Tienda,4,98.51,0.04,62,296.27
+2025-07-01,C1181,Tecnología,Castilla-La Mancha,Online,9,276.09,0.0,24,2443.43
+2025-07-02,C1182,Servicios,Madrid,Online,8,191.02,0.03,7,1525.42
+2025-07-03,C1183,Servicios,Madrid,Distribuidor,11,185.54,0.06,38,1950.24
+2025-07-04,C1184,Hogar,Valencia,Online,8,113.06,0.04,37,895.88
+2025-07-05,C1185,Alimentación,Castilla-La Mancha,Distribuidor,11,31.52,0.1,68,590.25
+2025-07-06,C1186,Moda,Madrid,Online,10,85.53,0.05,42,841.54
+2025-07-07,C1187,Alimentación,Castilla-La Mancha,Online,5,16.84,0.09,5,326.64
+2025-07-08,C1188,Alimentación,Cataluña,Online,7,16.93,0.03,64,64.42
+2025-07-09,C1189,Hogar,Andalucía,Online,10,106.06,0.09,50,824.67
+2025-07-10,C1190,Tecnología,Madrid,Distribuidor,12,279.84,0.02,15,3433.89
+2025-07-11,C1191,Servicios,Valencia,Distribuidor,12,159.65,0.05,53,1834.42
+2025-07-12,C1192,Servicios,Cataluña,Distribuidor,4,,0.11,25,638.14
+2025-07-13,C1193,Alimentación,Castilla-La Mancha,Tienda,8,21.14,0.03,9,304.68
+2025-07-14,C1194,Hogar,Cataluña,Online,11,123.37,0.07,38,1297.36
+2025-07-15,C1195,Hogar,Madrid,Tienda,11,111.31,0.07,22,1302.98
+2025-07-16,C1196,Moda,Castilla-La Mancha,Tienda,12,,0.04,49,844.33
+2025-07-17,C1197,Servicios,Andalucía,Tienda,6,155.95,0.11,68,1046.28
+2025-07-18,C1198,Servicios,Cataluña,Online,6,195.02,0.06,15,1076.04
+2025-07-19,C1199,Moda,Madrid,Tienda,11,55.58,0.11,65,596.23
+2025-07-20,C1200,Alimentación,Valencia,Tienda,11,19.01,0.05,54,541.29
+2025-07-21,C1201,Tecnología,Castilla-La Mancha,Distribuidor,10,315.69,0.15,30,2892.3
+2025-07-22,C1202,Tecnología,Cataluña,Distribuidor,6,288.31,0.17,20,1398.61
+2025-07-23,C1203,Servicios,Cataluña,Tienda,13,194.44,0.05,33,2462.38
+2025-07-24,C1204,Alimentación,Andalucía,Tienda,7,41.88,0.14,7,446.79
+2025-07-25,C1205,Tecnología,Andalucía,Tienda,11,273.21,0.04,8,2786.54
+2025-07-26,C1206,Tecnología,Valencia,Online,7,260.4,0.01,28,1762.46
+2025-07-27,C1207,Moda,Valencia,Distribuidor,17,65.52,0.1,45,1171.33
+2025-07-28,C1208,Tecnología,,Distribuidor,12,265.33,0.02,11,3420.21
+2025-07-29,C1209,Tecnología,Madrid,Tienda,7,266.23,0.07,31,1817.11
+2025-07-30,C1210,Alimentación,Valencia,Online,5,11.25,0.06,12,208.86
+2025-07-31,C1211,Moda,Valencia,Online,12,71.72,0.07,51,805.77
+2025-08-01,C1212,Alimentación,Castilla-La Mancha,Tienda,8,58.6,0.07,44,589.32
+2025-08-02,C1213,Hogar,Andalucía,Online,9,128.37,0.03,50,1202.53
+2025-08-03,C1214,Moda,Madrid,Distribuidor,9,68.41,0.06,17,845.27
+2025-08-04,C1215,Hogar,Andalucía,Online,8,119.39,0.04,35,1196.27
+2025-08-05,C1216,Hogar,Andalucía,Online,12,74.28,0.06,1,1113.95
+2025-08-06,C1217,Moda,Valencia,Distribuidor,14,63.64,0.04,29,844.4
+2025-08-07,C1218,Alimentación,Castilla-La Mancha,Tienda,10,13.6,0.12,51,251.44
+2025-08-08,C1219,Servicios,Cataluña,Online,12,182.02,0.05,64,2280.0
+2025-08-09,C1220,Alimentación,Castilla-La Mancha,Online,12,31.1,0.04,4,289.5
+2025-08-10,C1221,Alimentación,Castilla-La Mancha,Online,12,21.96,0.07,28,330.81
+2025-08-11,C1222,Tecnología,Andalucía,Tienda,8,281.68,0.03,16,2334.9
+2025-08-12,C1223,Hogar,Castilla-La Mancha,Online,3,121.55,0.03,63,445.16
+2025-08-13,C1224,Hogar,Madrid,Tienda,6,142.78,0.15,53,776.27
+2025-08-14,C1225,Hogar,Andalucía,Distribuidor,9,130.3,0.03,17,1087.63
+2025-08-15,C1226,Servicios,Madrid,Online,14,183.25,0.05,40,2376.04
+2025-08-16,C1227,Hogar,Cataluña,Distribuidor,11,105.79,0.09,13,1193.91
+2025-08-17,C1228,Servicios,Andalucía,Distribuidor,8,163.9,0.15,52,1159.83
+2025-08-18,C1229,Alimentación,Cataluña,Online,5,43.98,0.14,58,236.79
+2025-08-19,C1230,Moda,Andalucía,Distribuidor,13,67.0,0.02,37,1009.56
+2025-08-20,C1231,Alimentación,Valencia,Tienda,10,38.74,0.06,61,515.39
+2025-08-21,C1232,Alimentación,Castilla-La Mancha,Distribuidor,11,49.67,0.12,34,502.74
+2025-08-22,C1233,Alimentación,Valencia,Tienda,12,12.3,0.07,70,409.58
+2025-08-23,C1234,Tecnología,Cataluña,Tienda,5,300.96,0.03,17,1434.28
+2025-08-24,C1235,Moda,Castilla-La Mancha,Tienda,6,84.54,0.02,20,285.87
+2025-08-25,C1236,Hogar,Andalucía,Distribuidor,5,89.18,0.09,59,713.27
+2025-08-26,C1237,Tecnología,Castilla-La Mancha,Tienda,9,315.3,0.01,69,2882.41
+2025-08-27,C1238,Alimentación,Madrid,Tienda,10,39.82,0.12,33,346.65
+2025-08-28,C1239,Tecnología,Castilla-La Mancha,Distribuidor,3,272.82,0.01,17,767.04
+2025-08-29,C1240,Servicios,Madrid,Online,12,187.79,0.12,57,2132.67
+2025-08-30,C1241,Servicios,Castilla-La Mancha,Online,7,165.34,0.1,1,1011.22
+2025-08-31,C1242,Servicios,Madrid,Online,10,188.19,0.17,13,1713.06
+2025-09-01,C1243,Hogar,Cataluña,Online,15,108.1,0.08,27,1756.66
+2025-09-02,C1244,Tecnología,Valencia,Online,12,310.31,0.03,70,3705.45
+2025-09-03,C1245,Servicios,Andalucía,Distribuidor,9,180.9,0.09,59,1516.52
+2025-09-04,C1246,Alimentación,Castilla-La Mancha,Online,9,44.75,0.03,6,343.02
+2025-09-05,C1247,Servicios,Valencia,Tienda,12,,0.04,23,2047.95
+2025-09-06,C1248,Servicios,Andalucía,Online,13,192.25,0.07,10,2335.31
+2025-09-07,C1249,Servicios,Andalucía,Distribuidor,14,179.81,0.01,51,2559.64
+2025-09-08,C1250,Hogar,Madrid,Distribuidor,10,98.82,0.04,19,840.55
+2025-09-09,C1251,Hogar,Cataluña,Tienda,12,116.42,0.11,51,1105.78
+2025-09-10,C1252,Servicios,Cataluña,Distribuidor,6,208.97,0.16,68,1102.63
+2025-09-11,C1253,Hogar,Valencia,Online,11,132.88,0.03,42,1674.61
+2025-09-12,C1254,Tecnología,Cataluña,Distribuidor,9,274.32,0.1,57,2416.77
+2025-09-13,C1255,Alimentación,Castilla-La Mancha,Online,10,6.96,0.09,68,210.37
+2025-09-14,C1256,Servicios,Cataluña,Distribuidor,7,167.51,0.07,38,1273.08
+2025-09-15,C1257,Moda,Valencia,Online,7,48.9,0.03,62,332.5
+2025-09-16,C1258,Alimentación,Cataluña,Tienda,12,7.32,0.05,7,107.81
+2025-09-17,C1259,Tecnología,Castilla-La Mancha,Tienda,12,291.78,0.06,71,3254.46
+2025-09-18,C1260,Alimentación,Madrid,Online,8,35.94,0.07,50,433.88
+2025-09-19,C1261,Servicios,Valencia,Online,10,206.93,0.15,52,1920.02
+2025-09-20,C1262,Tecnología,Madrid,Online,5,265.04,0.04,26,1371.17
+2025-09-21,C1263,Alimentación,Madrid,Online,14,34.97,0.06,26,665.26
+2025-09-22,C1264,Servicios,Madrid,Tienda,6,159.09,0.04,19,1056.96
+2025-09-23,C1265,Moda,Andalucía,Online,6,61.08,0.08,9,214.57
+2025-09-24,C1266,Moda,Andalucía,Online,8,66.67,0.04,61,806.44
+2025-09-25,C1267,Moda,Madrid,Online,9,64.38,0.12,20,534.76
+2025-09-26,C1268,Hogar,Valencia,Distribuidor,7,120.8,0.03,50,708.84
+2025-09-27,C1269,Hogar,Castilla-La Mancha,Online,12,134.57,0.04,22,1592.24
+2025-09-28,C1270,Moda,Castilla-La Mancha,Online,9,83.0,0.08,13,797.36
+2025-09-29,C1271,Moda,Cataluña,Online,11,58.46,0.05,12,519.24
+2025-09-30,C1272,Servicios,Valencia,Online,6,179.54,0.02,10,1240.67
+2025-10-01,C1273,Servicios,Andalucía,Distribuidor,8,191.91,0.1,65,1433.46
+2025-10-02,C1274,Alimentación,Madrid,Online,7,50.54,0.07,30,346.26
+2025-10-03,C1275,Alimentación,Cataluña,Online,8,25.08,0.09,8,122.83
+2025-10-04,C1276,Moda,Castilla-La Mancha,Tienda,9,80.62,0.03,21,551.26
+2025-10-05,C1277,Alimentación,Andalucía,Tienda,12,39.97,0.05,22,391.45
+2025-10-06,C1278,Moda,Andalucía,Online,10,54.01,0.05,18,472.67
+2025-10-07,C1279,Moda,Madrid,Tienda,9,82.0,0.11,66,806.23
+2025-10-08,C1280,Servicios,Castilla-La Mancha,Distribuidor,8,182.27,0.04,48,1159.68
+2025-10-09,C1281,Hogar,Valencia,Online,7,93.88,0.08,44,800.57
+2025-10-10,C1282,Hogar,Andalucía,Tienda,6,115.59,0.16,9,689.89
+2025-10-11,C1283,Tecnología,Madrid,Tienda,10,280.6,0.07,67,2918.84
+2025-10-12,C1284,Alimentación,Valencia,Tienda,7,25.91,0.09,54,121.06
+2025-10-13,C1285,Tecnología,Castilla-La Mancha,Online,6,298.42,0.12,26,1605.54
+2025-10-14,C1286,Alimentación,Andalucía,Online,4,53.97,0.1,26,372.25
+2025-10-15,C1287,Alimentación,Valencia,Distribuidor,12,29.26,0.07,34,534.87
+2025-10-16,C1288,Hogar,Valencia,Distribuidor,9,112.62,0.06,8,1150.21
+2025-10-17,C1289,Alimentación,Valencia,Tienda,10,33.03,0.04,10,354.43
+2025-10-18,C1290,Tecnología,Andalucía,Online,8,277.0,0.15,48,1996.87
+2025-10-19,C1291,Tecnología,Andalucía,Tienda,6,271.11,0.06,55,1479.62
+2025-10-20,C1292,Moda,Cataluña,Tienda,10,14.37,0.02,54,403.59
+2025-10-21,C1293,Hogar,Castilla-La Mancha,Online,8,146.32,0.17,40,1016.34
+2025-10-22,C1294,Tecnología,Madrid,Online,6,280.01,0.12,15,1520.01
+2025-10-23,C1295,Alimentación,Valencia,Distribuidor,10,32.33,0.02,18,357.85
+2025-10-24,C1296,Moda,Cataluña,Online,8,74.88,0.11,23,303.27
+2025-10-25,C1297,Tecnología,Madrid,Distribuidor,3,,0.08,62,827.11
+2025-10-26,C1298,Alimentación,Cataluña,Online,7,28.55,0.11,46,347.3
+2025-10-27,C1299,Tecnología,Andalucía,Online,7,264.92,0.01,39,1927.53
+2025-10-28,C1300,Tecnología,Valencia,Online,8,,0.14,15,1829.57
+2025-10-29,C1301,Alimentación,Madrid,Tienda,11,14.68,0.04,53,381.63
+2025-10-30,C1302,Alimentación,Madrid,Distribuidor,14,18.25,0.03,64,309.04
+2025-10-31,C1303,Alimentación,Madrid,Online,9,44.76,0.09,63,462.3
+2025-11-01,C1304,Moda,Madrid,Distribuidor,7,80.87,0.1,16,532.53
+2025-11-02,C1305,Servicios,Madrid,Tienda,11,166.77,0.02,70,2065.63
+2025-11-03,C1306,Alimentación,Cataluña,Distribuidor,11,-4.95,0.09,66,87.31
+2025-11-04,C1307,Hogar,Valencia,Online,7,120.14,0.07,13,600.86
+2025-11-05,C1308,Moda,Andalucía,Distribuidor,8,63.68,0.08,47,562.38
+2025-11-06,C1309,Hogar,Andalucía,Tienda,11,113.31,0.11,9,1219.76
+2025-11-07,C1310,Alimentación,Andalucía,Online,12,49.34,0.1,63,853.2
+2025-11-08,C1311,Tecnología,Andalucía,Online,11,282.08,0.07,34,3004.35
+2025-11-09,C1312,Tecnología,Cataluña,Distribuidor,6,265.35,0.08,29,1358.94
+2025-11-10,C1313,Servicios,Castilla-La Mancha,Distribuidor,9,161.9,0.02,37,1471.73
+2025-11-11,C1314,Moda,Valencia,Online,19,66.06,0.11,43,1281.6
+2025-11-12,C1315,Moda,Madrid,Tienda,8,56.4,0.03,64,701.64
+2025-11-13,C1316,Hogar,Castilla-La Mancha,Distribuidor,6,118.91,0.03,24,812.93
+2025-11-14,C1317,Tecnología,Andalucía,Distribuidor,3,295.39,0.08,71,962.59
+2025-11-15,C1318,Tecnología,Castilla-La Mancha,Distribuidor,9,259.3,0.04,34,2428.4
+2025-11-16,C1319,Hogar,Valencia,Tienda,7,121.32,0.07,48,832.9
+2025-11-17,C1320,Alimentación,Madrid,Online,6,,0.07,12,324.05
+2025-11-18,C1321,Moda,Madrid,Online,5,68.71,0.17,23,432.61
+2025-11-19,C1322,Moda,Valencia,Online,11,80.82,0.04,13,955.19
+2025-11-20,C1323,Hogar,Valencia,Tienda,10,115.69,0.03,45,1306.59
+2025-11-21,C1324,Servicios,Andalucía,Tienda,11,182.56,0.07,65,2098.98
+2025-11-22,C1325,Moda,Madrid,Online,7,76.61,0.08,47,485.04
+2025-11-23,C1326,Alimentación,Castilla-La Mancha,Distribuidor,6,26.42,0.07,58,294.53
+2025-11-24,C1327,Alimentación,Cataluña,Tienda,9,64.86,0.08,5,440.43
+2025-11-25,C1328,Hogar,Cataluña,Tienda,8,128.66,0.06,5,945.31
+2025-11-26,C1329,Hogar,Valencia,Tienda,5,139.54,0.09,60,644.67
+2025-11-27,C1330,Hogar,Andalucía,Tienda,9,136.07,0.05,21,1257.25
+2025-11-28,C1331,Moda,Cataluña,Online,5,74.91,0.06,24,176.26
+2025-11-29,C1332,Tecnología,Madrid,Online,9,300.79,0.1,18,2555.45
+2025-11-30,C1333,Tecnología,Valencia,Online,7,282.82,0.15,21,1737.11
+2025-12-01,C1334,Tecnología,Castilla-La Mancha,Online,16,269.05,0.06,54,4409.82
+2025-12-02,C1335,Tecnología,Valencia,Tienda,6,280.22,0.02,10,1648.16
+2025-12-03,C1336,Servicios,Castilla-La Mancha,Tienda,7,164.91,0.02,24,1166.68
+2025-12-04,C1337,Moda,Valencia,Online,6,38.47,0.07,60,446.59
+2025-12-05,C1338,Alimentación,Valencia,Tienda,6,22.21,0.09,57,246.2
+2025-12-06,C1339,Tecnología,Valencia,Online,10,281.09,0.04,23,2788.97
+2025-12-07,C1340,Alimentación,Castilla-La Mancha,Distribuidor,10,50.93,0.12,22,622.5
+2025-12-08,C1341,Alimentación,Castilla-La Mancha,Distribuidor,9,22.17,0.05,68,327.43
+2025-12-09,C1342,Tecnología,Valencia,Online,10,295.15,0.14,34,2766.74
+2025-12-10,C1343,Alimentación,Cataluña,Tienda,10,16.84,0.08,70,128.43
+2025-12-11,C1344,Hogar,Andalucía,Online,8,106.21,0.13,28,1001.62
+2025-12-12,C1345,Alimentación,Andalucía,Tienda,8,56.74,0.03,39,323.2
+2025-12-13,C1346,Alimentación,Andalucía,Tienda,7,35.71,0.07,42,499.76
+2025-12-14,C1347,Tecnología,Castilla-La Mancha,Online,8,277.4,0.08,23,1875.16
+2025-12-15,C1348,Hogar,Castilla-La Mancha,Tienda,5,123.53,0.15,70,937.67
+2025-12-16,C1349,Alimentación,Cataluña,Online,8,16.9,0.08,2,148.72
+2025-12-17,C1350,Alimentación,Andalucía,Online,9,30.04,0.03,24,208.84
+2025-12-18,C1351,Servicios,Andalucía,Tienda,9,180.04,0.03,17,1838.06
+2025-12-19,C1352,Alimentación,Valencia,Online,8,53.47,0.09,65,421.1
+2025-12-20,C1353,Tecnología,Castilla-La Mancha,Tienda,12,254.94,0.04,70,3084.67
+2025-12-21,C1354,Tecnología,Andalucía,Online,6,306.44,0.08,69,2176.64
+2025-12-22,C1355,Alimentación,Cataluña,Distribuidor,2,33.13,0.08,60,258.42
+2025-12-23,C1356,Tecnología,Cataluña,Online,7,263.34,0.12,50,1504.06
+2025-12-24,C1357,Alimentación,Andalucía,Tienda,10,15.63,0.08,12,140.96
+2025-12-25,C1358,Servicios,Castilla-La Mancha,Tienda,6,184.1,0.02,47,1156.58
+2025-12-26,C1359,Alimentación,Cataluña,Online,9,14.79,0.08,67,312.6
+2025-12-27,C1360,Hogar,Valencia,Distribuidor,11,111.6,0.04,65,1335.64
+2025-12-28,C1361,Alimentación,Cataluña,Tienda,13,31.25,0.1,27,498.64
+2025-12-29,C1362,Alimentación,Madrid,Tienda,6,52.16,0.14,48,205.75
+2025-12-30,C1363,Alimentación,Madrid,Tienda,5,50.28,0.05,62,328.07
+2025-12-31,C1364,Servicios,Castilla-La Mancha,Distribuidor,12,170.36,0.12,44,1946.37
+2026-01-01,C1365,Hogar,Andalucía,Distribuidor,9,116.81,0.03,19,975.79
+2026-01-02,C1366,Servicios,Castilla-La Mancha,Tienda,16,156.07,0.11,59,2501.44
+2026-01-03,C1367,Servicios,Castilla-La Mancha,Tienda,6,,0.1,8,737.78
+2026-01-04,C1368,Tecnología,Castilla-La Mancha,Online,13,261.56,0.15,55,3044.98
+2026-01-05,C1369,Tecnología,Castilla-La Mancha,Online,6,296.85,0.07,47,1761.31
+2026-01-06,C1370,Tecnología,Valencia,Tienda,6,291.7,0.03,2,1580.94
+2026-01-07,C1371,Tecnología,Valencia,Online,11,285.75,0.02,39,3185.16
+2026-01-08,C1372,Tecnología,Cataluña,Tienda,7,258.14,0.04,45,1689.74
+2026-01-09,C1373,Moda,Madrid,Online,12,59.33,0.02,32,724.43
+2026-01-10,C1374,Tecnología,Castilla-La Mancha,Online,9,267.13,0.04,65,2474.16
+2026-01-11,C1375,Hogar,Cataluña,Tienda,8,117.51,0.1,38,769.79
+2026-01-12,C1376,Servicios,Madrid,Distribuidor,10,176.56,0.08,11,1726.71
+2026-01-13,C1377,Tecnología,Andalucía,Online,14,,0.14,10,3246.49
+2026-01-14,C1378,Moda,Valencia,Tienda,6,75.24,0.08,59,626.66
+2026-01-15,C1379,Hogar,Madrid,Distribuidor,6,123.43,0.07,55,826.56
+2026-01-16,C1380,Tecnología,Andalucía,Online,16,269.07,0.09,20,3829.54
+2026-01-17,C1381,Moda,Madrid,Distribuidor,5,74.56,0.03,17,404.13
+2026-01-18,C1382,Alimentación,Valencia,Online,8,51.86,0.08,68,626.49
+2026-01-19,C1383,Servicios,Valencia,Online,12,201.42,0.14,5,1948.33
+2026-01-20,C1384,Moda,Cataluña,Distribuidor,11,77.36,0.03,60,842.13
+2026-01-21,C1385,Moda,Castilla-La Mancha,Online,11,76.92,0.12,23,772.55
+2026-01-22,C1386,Hogar,Madrid,Tienda,19,116.4,0.07,46,2127.19
+2026-01-23,C1387,Tecnología,Madrid,Distribuidor,15,295.45,0.04,52,4382.48
+2026-01-24,C1388,Moda,Andalucía,Online,7,53.94,0.07,10,341.18
+2026-01-25,C1389,Moda,Valencia,Tienda,8,83.71,0.02,46,790.47
+2026-01-26,C1390,Servicios,Madrid,Distribuidor,8,175.69,0.1,28,1481.56
+2026-01-27,C1391,Hogar,Valencia,Online,10,142.36,0.03,43,1553.04
+2026-01-28,C1392,Hogar,Madrid,Distribuidor,5,128.82,0.04,26,690.09
+2026-01-29,C1393,Moda,Cataluña,Tienda,7,68.98,0.17,55,405.48
+2026-01-30,C1394,Hogar,Castilla-La Mancha,Tienda,11,,0.06,48,1237.48
+2026-01-31,C1395,Servicios,Madrid,Tienda,11,187.88,0.02,29,2198.9
+2026-02-01,C1396,Servicios,Valencia,Online,5,187.16,0.07,27,881.56
+2026-02-02,C1397,Alimentación,Cataluña,Distribuidor,10,29.02,0.08,18,195.9
+2026-02-03,C1398,Moda,Madrid,Distribuidor,11,71.38,0.09,60,1116.25
+2026-02-04,C1399,Moda,Andalucía,Tienda,5,83.45,0.14,69,714.25
+2026-02-05,C1400,Tecnología,Castilla-La Mancha,Tienda,12,259.55,0.05,21,2996.43
+2026-02-06,C1401,Servicios,Madrid,Tienda,9,190.89,0.07,24,1527.81
+2026-02-07,C1402,Alimentación,Cataluña,Tienda,8,42.82,0.09,3,406.02
+2026-02-08,C1403,Moda,Andalucía,Tienda,13,87.8,0.05,62,1180.52
+2026-02-09,C1404,Hogar,Cataluña,Tienda,7,109.27,0.01,2,868.83
+2026-02-10,C1405,Servicios,Cataluña,Tienda,10,180.09,0.14,66,1655.05
+2026-02-11,C1406,Hogar,Andalucía,Tienda,6,123.08,0.07,42,989.21
+2026-02-12,C1407,Tecnología,Cataluña,Tienda,9,291.08,0.06,34,2485.3
+2026-02-13,C1408,Servicios,Andalucía,Online,9,186.44,0.06,42,1966.02
+2026-02-14,C1409,Tecnología,Madrid,Online,7,261.41,0.05,20,1811.76
+2026-02-15,C1410,Hogar,Andalucía,Online,7,124.37,0.16,68,1067.39
+2026-02-16,C1411,Servicios,Andalucía,Tienda,12,210.06,0.1,45,2316.37
+2026-02-17,C1412,Servicios,Castilla-La Mancha,Tienda,10,189.18,0.04,42,1763.73
+2026-02-18,C1413,Alimentación,Andalucía,Tienda,14,59.57,0.07,47,616.36
+2026-02-19,C1414,Alimentación,Andalucía,Tienda,8,50.65,0.04,5,554.65
+2026-02-20,C1415,Alimentación,Madrid,Tienda,6,55.44,0.03,49,453.3
+2026-02-21,C1416,Hogar,Castilla-La Mancha,Online,11,124.65,0.05,37,1245.38
+2026-02-22,C1417,Hogar,Valencia,Tienda,8,127.83,0.1,34,1163.54
+2026-02-23,C1418,Moda,Madrid,Tienda,10,73.83,0.01,70,1044.66
+2026-02-24,C1419,Moda,Madrid,Distribuidor,11,70.07,0.03,18,958.48
+2026-02-25,C1420,Moda,Valencia,Online,8,81.13,0.12,19,457.9
+2026-02-26,C1421,Moda,Andalucía,Online,7,62.18,0.08,40,650.04
+2026-02-27,C1422,Tecnología,Cataluña,Online,9,308.28,0.11,17,2557.91
+2026-02-28,C1423,Alimentación,Castilla-La Mancha,Online,8,21.08,0.14,60,466.34
+2026-03-01,C1424,Tecnología,Cataluña,Tienda,7,292.17,0.0,42,2215.32
+2026-03-02,C1425,Alimentación,Valencia,Online,11,55.68,0.07,65,752.87
+2026-03-03,C1426,Alimentación,Madrid,Tienda,10,32.35,0.08,53,581.32
+2026-03-04,C1427,Servicios,Madrid,Tienda,5,163.31,0.03,7,911.76
+2026-03-05,C1428,Hogar,Castilla-La Mancha,Online,10,137.33,0.1,5,1378.31
+2026-03-06,C1429,Tecnología,Madrid,Online,15,283.05,0.03,24,4119.83
+2026-03-07,C1430,Tecnología,Madrid,Online,6,292.2,0.07,28,1679.79
+2026-03-08,C1431,Moda,Castilla-La Mancha,Online,12,68.36,0.08,62,701.62
+2026-03-09,C1432,Alimentación,Castilla-La Mancha,Online,3,60.98,0.08,17,143.59
+2026-03-10,C1433,Tecnología,Valencia,Distribuidor,5,248.24,0.06,20,1311.6
+2026-03-11,C1434,Tecnología,,Online,10,285.64,0.04,3,2817.37
+2026-03-12,C1435,Moda,Madrid,Distribuidor,3,90.13,0.07,37,226.41
+2026-03-13,C1436,Tecnología,Valencia,Online,11,281.58,0.09,15,3010.0
+2026-03-14,C1437,Moda,,Distribuidor,9,,0.04,51,1128.25
+2026-03-15,C1438,Moda,Andalucía,Tienda,14,63.49,0.05,48,856.09
+2026-03-16,C1439,Tecnología,Andalucía,Tienda,7,280.31,0.09,8,1780.87
+2026-03-17,C1440,Tecnología,Valencia,Tienda,12,254.92,0.08,13,2772.25
+2026-03-18,C1441,Servicios,Madrid,Tienda,8,169.22,0.12,48,1299.95
+2026-03-19,C1442,Hogar,,Tienda,5,108.2,0.11,3,521.85
+2026-03-20,C1443,Hogar,Valencia,Tienda,5,130.04,0.09,65,670.49
+2026-03-21,C1444,Moda,Andalucía,Tienda,5,61.43,0.08,31,326.85
+2026-03-22,C1445,Servicios,Cataluña,Online,7,171.86,0.18,26,1061.96
+2026-03-23,C1446,Servicios,Madrid,Online,6,174.33,0.03,56,1211.2
+2026-03-24,C1447,Moda,Andalucía,Tienda,12,58.77,0.06,34,923.91
+2026-03-25,C1448,Hogar,Cataluña,Tienda,12,124.04,0.09,9,1375.23
+2026-03-26,C1449,Tecnología,Cataluña,Tienda,5,285.66,0.01,62,1501.62
+2026-03-27,C1450,Moda,Castilla-La Mancha,Tienda,7,82.38,0.04,13,669.62
+2026-03-28,C1451,Alimentación,Madrid,Distribuidor,8,44.79,0.01,69,575.27
+2026-03-29,C1452,Alimentación,Cataluña,Online,7,43.29,0.02,41,376.34
+2026-03-30,C1453,Servicios,Andalucía,Online,9,175.07,0.03,1,1589.02
+2026-03-31,C1454,Tecnología,Castilla-La Mancha,Online,8,274.1,0.04,47,2176.64
+2026-04-01,C1455,Alimentación,Madrid,Tienda,5,21.93,0.05,4,50.53
+2026-04-02,C1456,Tecnología,Valencia,Distribuidor,9,,0.05,63,2209.54
+2026-04-03,C1457,Alimentación,Andalucía,Online,5,37.91,0.05,52,270.74
+2026-04-04,C1458,Tecnología,Cataluña,Tienda,14,269.21,0.09,10,3243.22
+2026-04-05,C1459,Tecnología,Cataluña,Online,8,302.02,0.04,28,2312.82
+2026-04-06,C1460,Tecnología,Andalucía,Tienda,8,279.44,0.04,6,2230.62
+2026-04-07,C1461,Alimentación,Cataluña,Tienda,7,57.52,0.08,27,257.31
+2026-04-08,C1462,Moda,Castilla-La Mancha,Online,10,78.58,0.04,12,761.55
+2026-04-09,C1463,Alimentación,Madrid,Tienda,8,23.34,0.03,62,343.99
+2026-04-10,C1464,Servicios,Castilla-La Mancha,Online,8,179.07,0.04,52,1476.62
+2026-04-11,C1465,Hogar,Cataluña,Online,11,94.9,0.16,48,939.1
+2026-04-12,C1466,Hogar,Valencia,Online,11,122.86,0.07,67,1463.37
+2026-04-13,C1467,Servicios,Madrid,Online,11,169.71,0.03,46,1981.53
+2026-04-14,C1468,Hogar,Madrid,Online,4,103.3,0.02,15,442.61
+2026-04-15,C1469,Servicios,Andalucía,Tienda,10,202.83,0.09,71,1972.18
+2026-04-16,C1470,Tecnología,Andalucía,Tienda,11,295.46,0.04,36,3313.81
+2026-04-17,C1471,Servicios,Valencia,Tienda,11,195.05,0.02,14,1980.3
+2026-04-18,C1472,Tecnología,Madrid,Online,9,291.73,0.01,3,2689.31
+2026-04-19,C1473,Servicios,Valencia,Tienda,10,161.48,0.05,67,1751.89
+2026-04-20,C1474,Alimentación,Andalucía,Online,15,28.99,0.11,19,458.44
+2026-04-21,C1475,Servicios,,Online,10,174.91,0.08,54,1742.96
+2026-04-22,C1476,Tecnología,Madrid,Distribuidor,12,254.35,0.06,69,2814.82
+2026-04-23,C1477,Alimentación,Castilla-La Mancha,Online,10,26.64,0.17,10,412.64
+2026-04-24,C1478,Servicios,Cataluña,Tienda,5,171.81,0.18,33,887.56
+2026-04-25,C1479,Alimentación,Andalucía,Tienda,9,36.89,0.16,13,196.02
+2026-04-26,C1480,Alimentación,Andalucía,Online,14,72.99,0.15,51,1087.09
+2026-04-27,C1481,Moda,Castilla-La Mancha,Online,4,69.69,0.04,32,370.26
+2026-04-28,C1482,Alimentación,Castilla-La Mancha,Online,10,36.9,0.01,24,355.33
+2026-04-29,C1483,Alimentación,Valencia,Distribuidor,9,31.25,0.1,35,483.61
+2026-04-30,C1484,Alimentación,Valencia,Online,8,46.07,0.02,70,484.45
+2026-05-01,C1485,Servicios,Cataluña,Online,6,163.89,0.08,40,1167.41
+2026-05-02,C1486,Tecnología,Cataluña,Online,3,308.44,0.09,54,1041.16
+2026-05-03,C1487,Hogar,Madrid,Tienda,7,118.14,0.09,44,977.32
+2026-05-04,C1488,Servicios,Valencia,Online,5,174.07,0.1,62,1007.81
+2026-05-05,C1489,Servicios,Andalucía,Online,9,194.55,0.03,68,1932.35
+2026-05-06,C1490,Alimentación,Valencia,Tienda,11,21.64,0.0,33,346.33
+2026-05-07,C1491,Alimentación,Andalucía,Distribuidor,8,45.79,0.04,56,404.44
+2026-05-08,C1492,Hogar,Castilla-La Mancha,Online,10,141.08,0.11,36,1353.09
+2026-05-09,C1493,Tecnología,Valencia,Online,7,276.38,0.09,54,2005.51
+2026-05-10,C1494,Alimentación,Castilla-La Mancha,Online,9,65.79,0.03,19,708.18
+2026-05-11,C1495,Hogar,Cataluña,Tienda,8,129.66,0.03,43,1173.85
+2026-05-12,C1496,Alimentación,Cataluña,Online,3,44.85,0.03,12,20.0
+2026-05-13,C1497,Tecnología,Madrid,Tienda,10,300.49,0.12,11,2646.21
+2026-05-14,C1498,Servicios,Valencia,Tienda,6,204.46,0.04,70,1314.5
+2026-05-15,C1499,Servicios,Castilla-La Mancha,Tienda,12,183.93,0.04,12,2016.45
+2025-11-01,C1304,Moda,Madrid,Distribuidor,7,80.87,0.1,16,532.53
+2025-12-07,C1340,Alimentación,Castilla-La Mancha,Distribuidor,10,50.93,0.12,22,622.5
+2025-02-17,C1047,Alimentación,Valencia,Online,8,49.01,0.02,38,542.09
+2025-03-09,C1067,Moda,Andalucía,Tienda,4,47.41,0.05,18,112.7
+2026-04-25,C1479,Alimentación,Andalucía,Tienda,9,36.89,0.16,13,196.02
